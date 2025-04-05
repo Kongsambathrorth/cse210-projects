@@ -1,9 +1,16 @@
-using System;
-
-class Program
+public class Assignment
 {
-    static void Main(string[] args)
+    private string _studentName;
+    private string _topic;
+
+    public Assignment(string studentName, string topic)
     {
-        Console.WriteLine("Hello World! This is the Fractions Project.");
+        _studentName = studentName;
+        _topic = topic;
+    }
+
+    public string GetSummary()
+    {
+        return $"{_studentName} - {_topic}";
     }
 }

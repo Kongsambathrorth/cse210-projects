@@ -2,6 +2,18 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach"
+    },
+    
+    {
+      "name": "C#: <project-name> Debug",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/<relative-path-to-project-folder><project-name>.csproj"
+    },
+    {
       "name": "Sandbox Project",
       "type": "coreclr",
       "request": "launch",
@@ -205,24 +217,6 @@
       "internalConsoleOptions": "neverOpen",
       "stopAtEntry": false
     },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/kongs/Documents/CSE-2010/cse210-projects",
-      "program": "c:/Users/kongs/Documents/CSE-2010/cse210-projects/build/Release/outRelease",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
-    }
+    // Removed invalid C/C++ Runner: Debug Session configuration
   ]
 }
