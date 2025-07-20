@@ -12,7 +12,7 @@ class Program
 
         Job job2 = new Job();
         job2._jobTitle = "Coordinator";
-        job2._company = "Song";
+        job2._company = "Sony";
         job2._startYear = 2022;
         job2._endYear = 2023;
 
