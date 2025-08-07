@@ -22,12 +22,12 @@ class Program
 
     static void DisplayWelcomeMessage()
     {
-      Console.WriteLine("Welcome to the program!");
+      Console.WriteLine("Welcome to the program!!");
     }
     
     static string PromptUserName()
     {
-      Console.WriteLine("Please enter your name:");
+      Console.WriteLine("Please enter your name here:");
       string name = Console.ReadLine();
       return name;
     }

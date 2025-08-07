@@ -15,11 +15,11 @@ class Program
             int guessCount = 0;
             bool guessedCorrectly = false;
 
-            Console.WriteLine("Welcome to Guess My Number!");
+            Console.WriteLine("Welcome to Guess my Number!");
             
             while (!guessedCorrectly)
             {
-                Console.Write("Enter your guess: ");
+                Console.Write("Enter your guess number: ");
                 string input = Console.ReadLine();
                 int guess;
 

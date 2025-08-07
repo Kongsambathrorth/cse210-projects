@@ -8,7 +8,7 @@ class Program
         List<int> numbers = new List<int>();
         int userNumber = -1; // Initialize with a value to enter the loop
 
-        Console.WriteLine("Enter a list of numbers, type 0 when finished.");
+        Console.WriteLine("Enter a list of numbers, type 0 when finish.");
         
         // Use a while loop
         while (userNumber != 0)
