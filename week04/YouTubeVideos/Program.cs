@@ -15,15 +15,15 @@ class Comment
 
 class Video
 {
-    public string Title { get; }
-    public string Author { get; }
-    public int Length { get; }
+    public string Title { get; set; }
+    public string Author { get; set; }
+    public int Length { get; set; }
     private List<Comment> Comments { get; } = new List<Comment>();
 
     public Video(string title, string author, int length)
     {
         Title = title;
-        Author = author;
+        this.Author = author;
         Length = length;
     }
 
