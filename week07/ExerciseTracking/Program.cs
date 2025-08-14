@@ -9,9 +9,9 @@ class Program
         var activities = new List<Activity>();
 
         // Create one activity of each type
-        activities.Add(new Running(new DateTime(2022, 11, 3), 30, 4.8));
-        activities.Add(new Cycling(new DateTime(2022, 11, 4), 45, 25.0));
-        activities.Add(new Swimming(new DateTime(2022, 11, 5), 60, 40));
+        activities.Add(new Running(new DateTime(2025, 08, 13), 30, 4.8));
+        activities.Add(new Cycling(new DateTime(2025, 08, 13), 45, 25.0));
+        activities.Add(new Swimming(new DateTime(2025, 08, 13), 60, 40));
 
         Console.WriteLine("--- Fitness Activity Log ---");
         
